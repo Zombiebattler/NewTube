@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTube</title>
+</head>
+<style>
+    h1 {
+        color: white;
+    }
+
+
+
+
+    body {
+        background-color: #282828;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .main {
+        width: 100%;
+        border: 0px solid red;
+        text-align: center;
+        height: 100%; /* Set the height to 100% of the viewport */
+        box-sizing: border-box; /* Include borders in the height calculation */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top {
+        border: 0px solid blue;
+        height: 80%; /* Set the top div to 80% of the main div height */
+        box-sizing: border-box; /* Include borders in the height calculation */
+    }
+
+    .bottom {
+        border: 0px solid green;
+        height: 20%; /* Set the bottom div to 20% of the main div height */
+        box-sizing: border-box; /* Include borders in the height calculation */
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>NewTube</h1>
+            {{ video_embed | safe }}
+        </div>
+        <div class="bottom">
+
+        </div>
+
+    </div>
+</body>
+</html>
