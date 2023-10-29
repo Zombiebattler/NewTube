@@ -1,5 +1,9 @@
 # NewTube
 
+### Smal project to skip antiaddblock on youtube
+
+### (beta)
+
 
 # How to install
 
