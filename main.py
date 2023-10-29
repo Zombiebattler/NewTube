@@ -21,4 +21,4 @@ def embed_youtube(url):
     return render_template('index.html', video_embed=embed_code)
 
 if __name__ == '__main__':
-    app.run(port=6000)
+    app.run(port=5000)
