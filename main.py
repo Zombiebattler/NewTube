@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return ("homepage")
+    return render_template('home.html')
 
 @app.route('/<path:url>')
 def embed_youtube(url):
@@ -21,6 +21,4 @@ def embed_youtube(url):
     return render_template('index.html', video_embed=embed_code)
 
 if __name__ == '__main__':
-    app.run(port=5000)
-
-    #app.run(host="0.0.0.0", port=5000)   ->    if you want to run it on a server
+    app.run(port=6000)
