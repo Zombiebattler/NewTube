@@ -10,4 +10,8 @@
 
 ### 1. Download the Necessary Files
 ### 2. Execute the Python Script
-### 3. Install Tampermonkey and Add the Provided Script
+
+
+## Optional 
+
+Download 
