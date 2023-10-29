@@ -1,8 +1,8 @@
-# NewTube
+# NewTube 
+<img src="./static/logo.png" alt="Logo" width="50" height="50">
 
 ## A Solution to Bypass YouTube's Anti-AdBlock Measures
 
-<img src="./static/logo.png" alt="Logo" width="50" height="50">
 
 ## Installation Instructions
 
