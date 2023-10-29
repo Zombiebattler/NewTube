@@ -4,6 +4,8 @@
 
 ### (beta)
 
+##### refresh youtube page if you dont get redirectet
+
 
 # How to install
 
