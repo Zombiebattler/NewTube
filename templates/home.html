@@ -58,10 +58,26 @@
 </body>
 
 <script>
+    document.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        const now_url = window.location.href;
+        const inputElement = document.getElementById("myInput");
 
+        if (inputElement && inputElement.value !== "") {
+            // Get the value of the input element
+            const inputValue = inputElement.value;
 
-
-
+            console.log(inputValue);
     
+            
+            // Log the resulting URL
+            console.log(now_url + inputValue);
+
+            window.open(now_url + inputValue, "_blank");
+
+        }
+        
+        }
+    });
 </script>
 </html>
