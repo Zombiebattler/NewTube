@@ -7,15 +7,18 @@
     <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/x-icon">
     <style>
         /* Deine CSS-Stile hier */
-
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
         body {
-            background-color: #333;
+            font-family: 'Poppins', sans-serif;
+            background-color: #050022;
             margin: 0;
             padding: 0;
+            overflow: hidden;
+             
         }
 
         .navbar {
-            background-color: #333;
+            background-color: #050022;
             overflow: hidden;
             color: #fff;
             display: flex;
@@ -31,7 +34,7 @@
         }
 
         .navbar a:hover {
-            background-color: #444;
+            background-color: #00c3ff;
         }
 
         .navbar h1 {
@@ -50,14 +53,18 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: #333; /* Hintergrundfarbe für den Inhalt */
-            padding: 20px; /* Innenabstand für den Inhalt hinzufügen */
+            background-color: #050022; /* Hintergrundfarbe für den Inhalt */
+            padding: 0px; /* Innenabstand für den Inhalt hinzufügen */
         }
     </style>
 </head>
 <body>
     <div class="navbar">
+<<<<<<< Updated upstream
         <a href="https://www.youtube.com">Youtube</a>
+=======
+        <a href="https://www.youtube.com/">Youtube</a>
+>>>>>>> Stashed changes
         <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" />
         <a href="https://github.com/Zombiebattler/NewTube">Github</a>
     </div>
