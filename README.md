@@ -1,15 +1,13 @@
 # NewTube
 
-### Smal project to skip antiaddblock on youtube
+## A Solution to Bypass YouTube's Anti-AdBlock Measures
 
-### (beta)
+### (Beta Version)
 
-##### refresh youtube page if you dont get redirectet
+#### Please refresh the YouTube page if the redirection doesn't occur.
 
+## Installation Instructions
 
-# How to install
-
-
-### 1. Download Files
-### 2. run Python file
-### 3. Install tampermokey and add file
+### 1. Download the Necessary Files
+### 2. Execute the Python Script
+### 3. Install Tampermonkey and Add the Provided Script
