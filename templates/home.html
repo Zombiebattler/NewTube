@@ -7,14 +7,9 @@
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-    *
-    {
-        padding: 0;
-        margin: 0;
-    }
+
     body {
         background-color: #333;
-       
     }
 
     .navbar {
@@ -22,23 +17,20 @@
             justify-content: space-between; /* Platzieren Sie die Elemente am Anfang und Ende */
             align-items: center; /* Zentrieren Sie vertikal */
             height: 80px; /* Ändern Sie die Höhe nach Bedarf */
-            padding: 0 ; 
-            margin: 0;/* Fügen Sie horizontalen Abstand hinzu, um Platz zu schaffen */
+            padding: 0 20px; /* Fügen Sie horizontalen Abstand hinzu, um Platz zu schaffen */
             background-color: #050022;
             border: 0px solid red;
-         
+            border-radius: 5px;
         }
     .navbar img {
         max-width: 100px; /* Ändern Sie die Breite des Logos nach Bedarf */
     }
 
     input {
-        
-         background-color: #333;
+        background-color: #333;
         width: 50%;
         height: 50%;
         border: 1px solid white;
-        align-items: center;
         border-radius: 10px;
         color: white;
         text-align: center;
@@ -48,12 +40,11 @@
 <body>
     <div class="navbar">
         <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" />
-       
+        <input id="myInput" type="text" placeholder="Paste Youtube url here !">
         <a href="https://github.com/Zombiebattler/NewTube">
             <img src="{{ url_for('static', filename='github.png') }}" alt="Logo" />
         </a>
     </div>
-    <input type="text" placeholder="Paste Youtube url here!">
     
 </body>
 
