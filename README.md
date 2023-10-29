@@ -2,7 +2,7 @@
 
 ## A Solution to Bypass YouTube's Anti-AdBlock Measures
 
-![Bildbeschreibung](./static/logo.png)
+<img src="./static/logo.png" alt="Logo" width="50" height="50">
 
 ## Installation Instructions
 
