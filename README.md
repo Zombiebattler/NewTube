@@ -4,9 +4,9 @@
 # Installation Instructions
 
 1. Download the Necessary Files
-2. Execute the Python Script
+2. Execute the main.py
 
 
-# Optional 
+# Optional Tricks
 
-Download the tampermonkey file to use it for every video you click on YouTube
+Use the tampermonkey file to use it if you click on a youtube video 
