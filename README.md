@@ -7,4 +7,4 @@
 2. Execute the main.py
 3. Download script for tampermonkey [automatic forwarder](https://greasyfork.org/de/scripts/478568-newtube) (optional)
 
-<source src="./static/forreadme/howto.gif" type="video/mp4">
+![Uploading howto.gif…]()
