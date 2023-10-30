@@ -3,8 +3,12 @@
 
 # Installation Instructions
 
-1. Download the Necessary Files
-2. Execute the main.py
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/YourUsername/NewTube.git
+
 3. Download script for tampermonkey [automatic forwarder](https://greasyfork.org/de/scripts/478568-newtube) (optional)
 
 
