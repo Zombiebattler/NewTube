@@ -7,47 +7,65 @@
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
     body {
         background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
 
     .navbar {
-            display: flex;
-            justify-content: space-between; /* Platzieren Sie die Elemente am Anfang und Ende */
-            align-items: center; /* Zentrieren Sie vertikal */
-            height: 80px; /* Ändern Sie die Höhe nach Bedarf */
-            padding: 0 20px; /* Fügen Sie horizontalen Abstand hinzu, um Platz zu schaffen */
-            background-color: #050022;
-            border: 0px solid red;
-            border-radius: 5px;
-        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 35%;
+        width: 75%;
+        padding: 0;
+        margin: 0;
+        background-color: #050022;
+        border-radius: 10px;
+        
+    }
+
     .navbar img {
-        max-width: 100px; /* Ändern Sie die Breite des Logos nach Bedarf */
+        max-width: 100px; /* Increase the logo width */
     }
 
     input {
         background-color: #333;
-        width: 50%;
-        height: 50%;
-        border: 1px solid white;
-        border-radius: 10px;
+        width: 70%; /* Increase the input width */
+        height: 70px; /* Increase the input height */
+        border: 2px solid white; /* Increase the border width */
+        border-radius: 15px; /* Increase the border radius */
         color: white;
         text-align: center;
+        font-size: 24px; /* Increase the font size */
     }
-
+    .logo {
+        padding-left: 5%;
+    }
+    .github{
+        padding-right: 5%
+    }
 </style>
 <body>
     <div class="navbar">
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" />
-        <input id="myInput" type="text" placeholder="Paste Youtube url here !">
-        <a href="https://github.com/Zombiebattler/NewTube">
+        <div class="logo"><img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" />
+        </div>
+        <input id="myInput" type="text" placeholder="Paste YouTube URL here!">
+        <div class="github"><a href="https://github.com/Zombiebattler/NewTube">
             <img src="{{ url_for('static', filename='github.png') }}" alt="Logo" />
-        </a>
+        </a></div>
     </div>
-    
+   
 </body>
-
 <script>
     document.addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
