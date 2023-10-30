@@ -8,4 +8,4 @@
 3. Download script for tampermonkey [automatic forwarder](https://greasyfork.org/de/scripts/478568-newtube) (optional)
 
 
-[howto](https://github.com/Zombiebattler/NewTube/assets/93437384/c7611f58-5bb6-4218-930a-1ace7f666e75)
+![howto](https://github.com/Zombiebattler/NewTube/assets/93437384/c7611f58-5bb6-4218-930a-1ace7f666e75)
