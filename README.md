@@ -1,3 +1,8 @@
+# About NewTube
+
+Would you like to enjoy YouTube videos without the interruption of annoying ads? NewTube is the solution that allows you to skip YouTube ads, even with the newest YouTube Ad Blocking policies.
+
+
 # Installation Instructions
 
 1. Clone the repository:
