@@ -12,10 +12,12 @@ def homepage():
 @app.route('/<path:url>')
 def embed_youtube(url):
     full_url = request.full_path
-    video_id = full_url.replace("/https://www.youtube.com/watch?v=", "")
+    if "www." in full_url:
+        video_id = full_url.replace("/https://www.youtube.com/watch?v=", "")
+    else:
+        video_id = full_url.replace("/https://youtube.com/watch?v=", "")
     if "&t=" in video_id:
         video_id = re.sub(pattern, '', video_id)
-    
     else:
         pass
     embed_code = f'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/{video_id}" frameborder="0" allowfullscreen></iframe>'
