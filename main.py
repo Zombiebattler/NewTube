@@ -5,6 +5,15 @@ pattern = r'&t=\d+s'
 
 app = Flask(__name__)
 
+@app.route('/beta/<path:id>')
+def download(id):
+    url = f"https://www.youtube.com/watch?v={id}"
+    try:
+        yt = YouTube(url).streams.get_highest_resolution().download()
+        return jsonify(f"Downloaded {yt.title()}")
+    except Exception as e:
+        return jsonify(f"Error: {e}")
+
 @app.route('/')
 def homepage():
     return render_template('home.html')
