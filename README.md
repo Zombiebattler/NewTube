@@ -13,6 +13,11 @@ git clone https://github.com/Zombiebattler/NewTube.git
 ```python
 pip install flask
 ```
+
+2. Download Pytube for testfeatures 
+```python
+pip install pytube
+```
 Optional
 Download script for tampermonkey [automatic forwarder](https://greasyfork.org/de/scripts/478568-newtube)
 
