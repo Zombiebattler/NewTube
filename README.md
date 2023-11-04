@@ -14,7 +14,7 @@ git clone https://github.com/Zombiebattler/NewTube.git
 pip install flask
 ```
 
-2. Download Pytube for testfeatures 
+3. Download Pytube for testfeatures 
 ```python
 pip install pytube
 ```
