@@ -40,7 +40,7 @@ def startup():
 
 {C.GREEN}[{C.YELLOW}!{C.GREEN}] - Version: {version}
 {C.GREEN}[{C.YELLOW}!{C.GREEN}] - Running on port: {PORT}
-{C.GREEN}[{C.YELLOW}!{C.GREEN}] - Opern Server: {open_server}
+{C.GREEN}[{C.YELLOW}!{C.GREEN}] - Open Server: {open_server}
 {C.YELLOW}
 ╔════════ Console-Log ════════╗
 
