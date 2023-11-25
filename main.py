@@ -24,7 +24,7 @@ class C:
     BLUE = '\033[34m'
 
 def startup():
-    version = 1.5
+    version = 1.6
     print(C.GREEN + f"""  _   _            _______    _          
  | \ | |          |__   __|  | |         
  |  \| | _____      _| |_   _| |__   ___ 
