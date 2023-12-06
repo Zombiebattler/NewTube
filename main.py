@@ -24,7 +24,7 @@ class C:
     BLUE = '\033[34m'
 
 def startup():
-    version = 1.6
+    version = 1.7
     print(C.GREEN + f"""  _   _            _______    _          
  | \ | |          |__   __|  | |         
  |  \| | _____      _| |_   _| |__   ___ 
@@ -32,7 +32,7 @@ def startup():
  | |\  |  __/\ V  V /| | |_| | |_) |  __/
  |_| \_|\___| \_/\_/ |_|\__,_|_.__/ \___|{C.GREEN} 
 
-[*] - DEanozyp - Zombiebattler
+[*] - venx0f - Zombiebattler - Verpxnter(mental support)
     
 [*] ╔ {C.BLUE}https://github.com/Zombiebattler/NewTube{C.GREEN}     
 [*] ╠ {C.BLUE}https://github.com/Zombiebattler{C.GREEN} 
