@@ -32,11 +32,11 @@ def startup():
  | |\  |  __/\ V  V /| | |_| | |_) |  __/
  |_| \_|\___| \_/\_/ |_|\__,_|_.__/ \___|{C.GREEN} 
 
-[*] - venx0f - Zombiebattler - Verpxnter(mental support)
+[*] - V3nxRndm - Zombiebattler - Verpxnter(mental support)
     
 [*] ╔ {C.BLUE}https://github.com/Zombiebattler/NewTube{C.GREEN}     
 [*] ╠ {C.BLUE}https://github.com/Zombiebattler{C.GREEN} 
-[*] ╚ {C.BLUE}https://github.com/DEanozyp{C.GREEN} 
+[*] ╚ {C.BLUE}https://github.com/V3nxRndm{C.GREEN} 
 
 {C.GREEN}[{C.YELLOW}!{C.GREEN}] - Version: {version}
 {C.GREEN}[{C.YELLOW}!{C.GREEN}] - Running on port: {PORT}
